@@ -18,6 +18,7 @@ import {Route, Router, Routes} from "react-router-dom";
 
 function App() {
    const status = useAppSelector<RequestStatusType>((state) => state.app.status)
+
    return (
       <div className="App">
          <ErrorSnackbar/>
